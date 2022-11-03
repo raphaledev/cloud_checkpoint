@@ -1,0 +1,54 @@
+.formules {
+    margin: 0 15%;
+    color: white;
+    font-family: Candara, Arial, Helvetica, sans-serif
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+.formules p, li {
+    font-size:  1.5rem;
+    line-height: 2rem;
+}
+
+.packs {
+    margin-top: 3rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.pack {
+    width: 340px;
+    height: auto;
+    background-color: white;
+    border: 10px solid ghostwhite;
+    border-radius: 10px;
+    color: #2C2B2B;
+    text-align: center;
+}
+
+.pack p{
+    border-top: 1px solid gainsboro;
+    margin-top: 0;
+}
+
+.pack h3 {
+    background-color: navy;
+    color: white;
+    margin: 0;
+    padding: 0;
+    line-height: 3rem;
+    font-size: 1.5rem;
+}
+
+.pack h2 {
+    background-color: ghostwhite;
+    color: navy;
+    margin: 0;
+    padding: 0;
+    line-height: 4rem;
+    font-size: 2rem;
+    box-sizing: border-box;
+}

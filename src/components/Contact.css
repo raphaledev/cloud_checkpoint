@@ -1,0 +1,37 @@
+.container {
+    margin: 3rem 25%;
+    color: white;
+    margin-bottom: 0;
+}
+input[type=text],[type=number], select, textarea {
+    width: 100%;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+
+textarea {
+    padding: 50px;
+}
+
+input[type=submit] {
+    background-color: navy;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: navy;
+}
+h2 {
+    font-size: 1.7rem;
+    text-align: center;
+}
